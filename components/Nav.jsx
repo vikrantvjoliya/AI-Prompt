@@ -71,7 +71,7 @@ const Nav = () => {
 
             }
         </div>
-
+            {/* Mobile Navigation */}
             <div className="sm:hidden flex-relative">
                 {isUserLoggedIn ? (
                     <div className="flex">
@@ -81,7 +81,8 @@ const Nav = () => {
                         className="rounded-full"
                         alt="profile"
                         onClick={() => setToggleDropdown((prev) => !prev)}
-                        />
+                        // onClick={() => setToggleDropdown(!toggleDropdown)}
+                    />
                         {toggleDropdown && (
                             <div className="dropdown">
                                 <Link
