@@ -1,3 +1,4 @@
+
 import { Feed } from "@components/Feed"
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
             4july is open source AI propmting tool for modern world 
         </p>
 
-        <Feed />
+        {/* <Feed /> */}
     </section>
 
     )
